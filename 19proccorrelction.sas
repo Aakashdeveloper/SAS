@@ -25,3 +25,16 @@ proc logistic data=test;
 model height = weight;
 run;
 quit;
+
+
+function add(a,b){
+    return a+b
+}
+
+
+add(1,2)
+
+{
+    name:'abc'
+    class:'xyz'
+}
